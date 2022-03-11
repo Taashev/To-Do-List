@@ -1,0 +1,28 @@
+.page {
+  /* контейнер */
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* общие настройки страницы */
+  color: #fff;
+  position: relative;
+  /* Настройки шрифта страницы */
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgba(0,0,0, .8);
+}

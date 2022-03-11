@@ -1,0 +1,18 @@
+/* vendor ======================================== */
+/* normalize */
+@import url(../vendor/normalize.css);
+/* font */
+@import url(../vendor/fonts/Inter/inter.css);
+
+
+/* body ========================================== */
+@import url(../blocks/body/body.css);
+
+
+/** Дефольные стили ============================== */
+/* hover */
+@import url(../blocks/hover/hover.css);
+
+
+/* page ========================================== */
+@import url(../blocks/page/page.css);
