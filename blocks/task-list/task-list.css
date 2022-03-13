@@ -11,8 +11,9 @@
   row-gap: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .task-list {
+    padding: 60px 0 30px;
     justify-content: center;
   }
 }

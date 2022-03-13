@@ -56,3 +56,9 @@
 @import url(../blocks/task/__button/_type/task__button_type_delete.css);
 /* __button_type_copy */
 @import url(../blocks/task/__button/_type/task__button_type_copy.css);
+
+
+/* no task ======================================== */
+@import url(../blocks/no-task/no-task.css);
+/* _visible */
+@import url(../blocks/no-task/_visible/no-task_visible.css);

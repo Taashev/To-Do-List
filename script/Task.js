@@ -1,8 +1,9 @@
 class Task {
-  constructor(taskSelector, text, handleTaskCopy) {
+  constructor(taskSelector, text, handleTaskCopy, toggleBanerNoTask) {
     this._text = text;
     this._taskSelector = taskSelector;
     this._handleTaskCopy = handleTaskCopy;
+    this._toggleBanerNoTask = toggleBanerNoTask;
   };
 
   _handleTaskElement() {
@@ -17,6 +18,7 @@ class Task {
 
   _handleTaskDelete() {
     this._buttonElementDelete.closest('.task').remove();
+    this._toggleBanerNoTask();
   };
 
   _setEventListener() {
