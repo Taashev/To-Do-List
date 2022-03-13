@@ -1,0 +1,7 @@
+.add-task__button_type_invalid {
+  cursor: inherit;
+}
+
+.add-task__button_type_invalid:hover {
+  opacity: 1;
+}

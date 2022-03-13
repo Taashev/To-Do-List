@@ -1,0 +1,15 @@
+.add-task {
+  min-height: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .add-task {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

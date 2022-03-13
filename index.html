@@ -9,9 +9,30 @@
 </head>
 <body class="body">
 	<div class="page">
-
+    <h1 class="title">To Do List</h1>
+    <section class="add-task">
+      <label class="add-task__input-group">
+        <input class="add-task__text" type="text" name="newText" placeholder="Слудующая задача..." autocomplete="off" minlength="1" required>
+        <p class="add-task__error">Упс... видимо добовлять нечего</p>
+      </label>
+      <button class="add-task__button hover" type="button" aria-label="Добавить новую задачу">Добавить</button>
+    </section>
+    <ul class="task-list">
+    </ul>
 	</div>
+
+  <template class="task-template">
+    <li class="task">
+      <div class="task__button-container">
+        <button class="task__button task__button_type_copy hover"></button>
+        <button class="task__button task__button_type_delete hover"></button>
+      </div>
+      <p class="task__text"></p>
+    </li>
+  </template>
   <!-- script -->
-  <script src="script/index.js"></script>
+  <script type="module" src="script/index.js"></script>
+  <script type="module" src="script/Task.js"></script>
+  <script type="module" src="script/TaskAddValidator.js"></script>
 </body>
 </html>

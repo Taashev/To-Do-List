@@ -1,0 +1,8 @@
+/* .add-task__error_visible {
+  opacity: 1;
+} */
+
+.add-task__text:focus ~ .add-task__error_visible {
+  bottom: -25px;
+  opacity: 1;
+}

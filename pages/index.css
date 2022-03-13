@@ -16,3 +16,43 @@
 
 /* page ========================================== */
 @import url(../blocks/page/page.css);
+
+
+/* title ========================================= */
+@import url(../blocks/title/title.css);
+
+
+/* add task ====================================== */
+@import url(../blocks/add-task/add-task.css);
+/* __input-group */
+@import url(../blocks/add-task/__input-group/add-task__input-group.css);
+/* __text */
+@import url(../blocks/add-task/__text/add-text__text.css);
+/* __text_type_invalid */
+@import url(../blocks/add-task/__text/_type/add-task__text_type_invalid.css);
+/* __error */
+@import url(../blocks/add-task/__error/add-task__error.css);
+/* __error-visible */
+@import url(../blocks/add-task/__error/_visible/add-task__error_visible.css);
+/* button */
+@import url(../blocks/add-task/__button/add-task__button.css);
+/* __button_type_invalid */
+@import url(../blocks/add-task/__button/_type/add-task__button_type_invalid.css);
+
+
+/* task-list ====================================== */
+@import url(../blocks/task-list/task-list.css);
+
+
+/* task =========================================== */
+@import url(../blocks/task/task.css);
+/* __text */
+@import url(../blocks/task/__text/task__text.css);
+/* __button-container */
+@import url(../blocks/task/__button-container/task__button-container.css);
+/* __button */
+@import url(../blocks/task/__button/task__button.css);
+/* button_type_delete */
+@import url(../blocks/task/__button/_type/task__button_type_delete.css);
+/* __button_type_copy */
+@import url(../blocks/task/__button/_type/task__button_type_copy.css);

@@ -1,0 +1,13 @@
+.task__button-container {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  padding: 0 10px;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
